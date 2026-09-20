@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "github.vscode-github-actions",
+        "hashicorp.terraform",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "eamodio.gitlens",
+        "ms-vscode-remote.remote-wsl"
+    ]
+}

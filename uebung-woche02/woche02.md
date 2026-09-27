@@ -1,0 +1,3 @@
+- Profil (Teilaufgabe A): https://github.com/nadlerfabian
+- Projekt-Repository (B/C/D): https://github.com/nadlerfabian/power_monitor
+- Gemergter Pull Request (C): https://github.com/nadlerfabian/power_monitor/pull/1

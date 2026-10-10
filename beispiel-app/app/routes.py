@@ -79,3 +79,16 @@ def delete_task(task_id: int):
     if not _repo().delete(task_id):
         return jsonify(error="task not found"), 404
     return "", 204
+
+
+@bp.get("/api/tasks/stats")
+def get_stats():
+    tasks = _repo().list()
+    total = len(tasks)
+    done = sum(task.done for task in tasks)
+
+    return jsonify(
+        total=total,
+        done=done,
+        open=total - done,
+    )
